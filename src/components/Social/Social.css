@@ -1,0 +1,17 @@
+.social-icons {
+    width: 15%;
+    position: absolute;
+}
+
+.icons  {
+    list-style-type: none;
+    text-align: left;
+    padding:20px;
+    margin-left:20px;
+    margin-top:60px;
+}
+
+.icons a {
+    color: var(--primary-dark);
+    font-size: large;
+}

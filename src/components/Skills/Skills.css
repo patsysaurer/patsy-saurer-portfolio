@@ -1,0 +1,38 @@
+.line {
+    border: solid #eee 0.25px;
+}
+
+.skills {
+    text-align: center;
+    width: 80%;
+    margin:auto;
+    padding: 25px;
+}
+
+.skills h2 {
+    color: var(--primary-dark);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.skills-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top:20px;
+}
+
+.skills p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+}
+
+.skills-card h4 {
+    color: var(--primary-dark)
+}
+
+@media screen and (max-width:769px){
+    .skills-group {
+        display: block;
+    }
+}

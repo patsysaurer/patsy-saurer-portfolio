@@ -1,0 +1,25 @@
+/* Intro */
+
+#intro-section {
+    width: 400px;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    border-bottom: solid 1px #eee;
+}
+
+#intro-section h3 {
+    color: var(--secondary-color);
+}
+
+#intro-section h1 {
+    color: var(--primary-dark);
+}
+
+@media screen and (max-width:769px){
+    #hero-section {
+        display:block;
+        margin: auto;
+    }
+
+}
