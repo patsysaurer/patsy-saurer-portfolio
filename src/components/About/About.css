@@ -1,6 +1,7 @@
 .about {
     display: block;
     width: 650px;
+    background-color: #fff;
     margin:auto;
     padding: 35px;
     border: var(--secondary-color) solid 0.5px;

@@ -7,6 +7,7 @@
 }
 
 .cards {
+    background-color: #fff;
     border: solid 1px plum;
     border-radius: 10px;
     box-shadow: 5px 5px 5px hsla(298, 77%, 49%, 0.177);

@@ -13,7 +13,7 @@ function App() {
     <div className="top-page">
       <Navbar /> 
       <Social />
-      <Hero className="hero-section" />
+      <Hero className="hero-section"/>
     </div>
       <Skills id="skills"/>
       <About />

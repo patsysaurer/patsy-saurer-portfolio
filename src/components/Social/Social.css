@@ -15,3 +15,7 @@
     color: var(--primary-dark);
     font-size: large;
 }
+
+.icons a:hover {
+    color: var(--secondary-color);
+}

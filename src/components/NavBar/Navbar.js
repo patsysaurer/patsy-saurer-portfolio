@@ -9,9 +9,9 @@ const Navbar = () => {
     const closeMenu = () => setClick(false)
 
   return (
-    <div className="header" id="nav">
+    <div className="header">
       <nav className="navbar">
-      <Link to="nav" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} style={{fontSize: "2.5rem", color:"var(--primary-color)", fontWeight: "bold"}}>PS</Link>
+      <Link to="hero" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu} style={{fontSize: "2.5rem", color:"var(--primary-color)", fontWeight: "bold"}}>PS</Link>
         <div className="hamburger" onClick={handleClick}>
             {click ? (<FaTimes />) : (<FaBars size={30} style={{color: 'orange'}}/>)}
         </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
           <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Projects</Link>
           </li>
           <li className="nav-item">
-          <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Contact</Link>
+          <Link spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}><a href="mailto:patsyesaurer@gmail.com">Contact</a></Link>
           </li>
         </ul>
       </nav>
