@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #F266B3;
-  --primary-dark: #152B59; 
-  --primary-bg: aliceblue;
-  --secondary-color: #F28705;
-  --secondary-dark: #F2600C;
+  --primary-color: #EE05F2;
+  --primary-dark: #2F1D73; 
+  --primary-bg: #F2F2F2;
+  --secondary-color: #F088F2;
+  --secondary-dark: #6451A6;
   --overlay: (0,0,0, .7); 
 }
 

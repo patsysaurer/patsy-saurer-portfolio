@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
+import { loadSlim } from "@tsparticles/slim"; 
 
 const ParticleBackground = () => {
   const [init, setInit] = useState(false);
@@ -52,13 +52,14 @@ const ParticleBackground = () => {
       },
       particles: {
         color: {
-          value: "#152B59",
+          value: "skyblue",
+          opacity: 0.2
         },
         links: {
           color: "#F266B3",
           distance: 150,
           enable: true,
-          opacity: 0.5,
+          opacity: 0.2,
           width: 1,
         },
         move: {
@@ -68,7 +69,7 @@ const ParticleBackground = () => {
             default: "bounce",
           },
           random: false,
-          speed: 4,
+          speed: 1,
           straight: false,
         },
         number: {
