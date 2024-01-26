@@ -52,11 +52,11 @@ const ParticleBackground = () => {
       },
       particles: {
         color: {
-          value: "skyblue",
+          value: "#F266B3",
           opacity: 0.2
         },
         links: {
-          color: "#F266B3",
+          color: "#EE05F2",
           distance: 150,
           enable: true,
           opacity: 0.2,
@@ -85,7 +85,7 @@ const ParticleBackground = () => {
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 5 },
+          value: { min: 1, max: 4 },
         },
       },
       detectRetina: true,

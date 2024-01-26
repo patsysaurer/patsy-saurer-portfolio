@@ -13,7 +13,7 @@ const Navbar = () => {
       <nav className="navbar">
       <Link to="hero" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu} style={{fontSize: "2.5rem", color:"var(--primary-color)", fontWeight: "bold"}}>PS</Link>
         <div className="hamburger" onClick={handleClick}>
-            {click ? (<FaTimes />) : (<FaBars size={30} style={{color: 'orange'}}/>)}
+            {click ? (<FaTimes />) : (<FaBars size={30} style={{color: '#EE05F2'}}/>)}
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className="nav-item">
