@@ -1,7 +1,7 @@
 :root {
   --primary-color: #EE05F2;
   --primary-dark: #2F1D73; 
-  --primary-bg: #F2F2F2;
+  --primary-bg: #FDFAEB;
   --secondary-color: #F088F2;
   --secondary-dark: #6451A6;
   --overlay: (0,0,0, .7); 
@@ -74,6 +74,10 @@ footer {
   padding: 25px;
   border-top: solid 0.25px #eee;
   color: #333;
+}
+
+.footer {
+  background-color: #fff;
 }
 
 

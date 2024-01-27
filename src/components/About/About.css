@@ -4,7 +4,7 @@
     background-color: #fff;
     margin:auto;
     padding: 35px;
-    border: var(--secondary-color) solid 0.5px;
+    border: solid 0.25px #A0A0A0;
 }
 
 .about-text {

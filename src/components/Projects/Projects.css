@@ -1,60 +1,52 @@
-.projects-section {
+.container {
     text-align: center;
-    margin-top: 50px;
-    background-color: #fff;
+    padding: 50px;
+    width: 960px;
 }
 
-.projects-section h2 {
-    display: block;
-    margin: auto;
-    border-bottom: solid 1px #eee;
-    padding: 20px;
-    width: 80%;
+.container h2 {
+    padding:25px;
+    color: var(--secondary-color)
 }
 
 .card-container {
-    display:flex; 
-    justify-content: space-evenly;
-    margin-top: 50px;
-}
-
-
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+  } 
 
 .card {
     background-color: #fff;
     border: solid 1px plum;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px hsla(298, 77%, 49%, 0.177);
+    box-shadow: 3px 3px 3px hsla(298, 77%, 49%, 0.177);
     padding:20px;
     margin: 10px;
     text-align: center;
-    max-width: 250px;
     display: inline-block;
 }
 
-.card .card-title {
+.card-title {
     margin: 0;
-    color: #FD6E0A;
+    color: var(--primary-dark)
 }
 
-.card .card-text {
+.card {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .card a {
     text-decoration: none;
-    color: blueviolet;
+    color: var(--primary-color)
 }
 
 .card a:hover {
-    color:#FD6E0A;
+    color:var(--secondary-color);
 }
+
 
 @media screen and (max-width:769px){
     .card-container {
-        display: block;
-     
-        margin:auto;
+      display: inline-block; 
     } 
 }
-

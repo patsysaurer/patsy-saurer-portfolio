@@ -1,11 +1,11 @@
 /* Intro */
 
 #intro-section {
-    width: 400px;
+    width: 75%;
     margin: auto;
     padding: 50px 0px 50px 0px;
     text-align: center;
-    border-bottom: solid 1px #eee;
+    border-bottom: solid 0.25px #A0A0A0;
 }
 
 #intro-section h3 {

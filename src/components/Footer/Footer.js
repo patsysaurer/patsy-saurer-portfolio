@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer">
       <footer className="p-15 d-block text-center text-grey">
       <p style={{color:"#EE05F2"}}>&copy; Patsy Saurer <span style={{color:"#2F1D73"}}> | </span><span style={{color:"#6451A6"}}>{new Date().getFullYear()}</span></p>
         <p style={{ fontSize: "0.7rem" }}>
