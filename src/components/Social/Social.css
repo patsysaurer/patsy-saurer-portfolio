@@ -8,12 +8,12 @@
     text-align: left;
     padding:20px;
     margin-left:20px;
-    margin-top:60px;
+    margin-top:30px;
 }
 
 .icons a {
     color: var(--primary-dark);
-    font-size: large;
+    font-size: 1.3rem;
 }
 
 .icons a:hover {
