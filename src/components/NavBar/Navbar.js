@@ -29,7 +29,7 @@ const Navbar = () => {
           <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Projects</Link>
           </li>
           <li className="nav-item">
-          <Link to="social" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Contact</Link>
+          <a href="https://www.linkedin.com/in/patsy-saurer/">Contact</a>
           </li>
         </ul>
       </nav>
