@@ -85,4 +85,8 @@ footer {
   .top-page {
       width: 100%;
   }
+
+  .sbx-cursor {
+    display: none;
+  }
 }

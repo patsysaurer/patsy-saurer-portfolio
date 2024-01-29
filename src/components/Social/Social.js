@@ -4,7 +4,7 @@ import "./Social.css";
 const Social = () => {
   return (
     <>
-      <div className="social-icons">
+      <div className="social-icons" id="social">
         <ul className="icons">
           <li>
             <a href="https://github.com/patsysaurer">

@@ -26,9 +26,13 @@
     display: inline-block;
 }
 
+.card img {
+    border: solid 1px var(--secondary-color);
+    box-shadow: 3px 3px 3px hsla(298, 77%, 49%, 0.177);
+}
+
 .card-title {
     margin: 0;
-    color: var(--primary-dark)
 }
 
 .card {

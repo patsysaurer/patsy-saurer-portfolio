@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer">
       <footer className="p-15 d-block text-center text-grey">
       <p style={{color:"#EE05F2"}}>&copy; Patsy Saurer <span style={{color:"#2F1D73"}}> | </span><span style={{color:"#6451A6"}}>{new Date().getFullYear()}</span></p>
-        <p style={{ fontSize: "0.7rem", color:"#6451A6" }}>
+        <p className="sbx-cursor" style={{ fontSize: "0.7rem", color:"#6451A6" }}>
           <span style={{ color: "#EE05F2" }}>P.S. </span>
           <a
             style={{ textDecoration: "none", color: "#F088F2" }}

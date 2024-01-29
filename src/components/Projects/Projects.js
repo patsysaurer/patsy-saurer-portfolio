@@ -17,6 +17,37 @@ const Projects = () => {
         {/* <div className="projects-section" > */}
         <h2>Projects</h2>
         <div className="card-container">
+        <Card
+            className="card" // cake recipe app
+            style={{
+              width: "18rem",
+              marginBottom: "25px",
+            }}
+          >
+            <CardBody>
+              <CardTitle className="card-title" tag="h5" style={{color:"var(--primary-color)"}}>
+                Cake Recipe App
+              </CardTitle>
+              <CardSubtitle className="mb-2 text-muted" tag="h6">
+                React, Ruby on Rails & RSpec Testing
+              </CardSubtitle>
+            </CardBody>
+            <img
+              alt="Cake Recipe App"
+              src="https://res.cloudinary.com/dl11m63ow/image/upload/c_thumb,w_200,g_face/v1706524219/cake-recipe-app_mc8s1y.png"
+              width="100%"
+            />
+            <CardBody>
+              <CardText>
+                Full-Stack App deployed with full CRUD functionality and my personal cake images.
+              </CardText>
+              <CardLink href="https://cake-recipes-app.onrender.com/">View App</CardLink>
+              <CardLink href="https://github.com/patsysaurer/cake-recipes-backend">
+                View Code
+              </CardLink>
+            </CardBody>
+          </Card>
+
           <Card // cake memory game
             style={{
               width: "18rem",
@@ -24,7 +55,7 @@ const Projects = () => {
             }}
           >
             <CardBody>
-              <CardTitle tag="h5">Cake Memory</CardTitle>
+              <CardTitle tag="h5" style={{color:"var(--primary-color)"}}>Cake Memory</CardTitle>
               <CardSubtitle className="mb-2 text-muted" tag="h6">
                 React & Vite
               </CardSubtitle>
@@ -55,7 +86,7 @@ const Projects = () => {
             }}
           >
             <CardBody>
-              <CardTitle tag="h5">Tic Tac Toe</CardTitle>
+              <CardTitle tag="h5" style={{color:"var(--primary-color)"}}>Tic Tac Toe</CardTitle>
               <CardSubtitle className="mb-2 text-muted" tag="h6">
                 React & Yarn
               </CardSubtitle>
@@ -80,46 +111,14 @@ const Projects = () => {
           </Card>
 
           <Card
-            className="card" // cat tinder
+            className="card" // cat Tinder
             style={{
               width: "18rem",
               marginBottom: "25px",
             }}
           >
             <CardBody>
-              <CardTitle className="card-title" tag="h5">
-                Cat Tinder
-              </CardTitle>
-              <CardSubtitle className="mb-2 text-muted" tag="h6">
-                React & Ruby on Rails
-              </CardSubtitle>
-            </CardBody>
-            <img
-              alt="Cat Tinder app"
-              src="https://res.cloudinary.com/dl11m63ow/image/upload/c_thumb,w_200,g_face/v1704253883/cat-tinder_y6jvgi.png"
-              width="100%"
-            />
-            <CardBody>
-              <CardText>
-                Collaborative project I contributed to building a full-stack
-                application.
-              </CardText>
-              {/* <CardLink href="">View App</CardLink> */}
-              <CardLink href="https://github.com/patsysaurer/cat-tinder-backend">
-                View Code
-              </CardLink>
-            </CardBody>
-          </Card>
-{/* 
-          <Card
-            className="card" // cat tinder
-            style={{
-              width: "18rem",
-              marginBottom: "25px",
-            }}
-          >
-            <CardBody>
-              <CardTitle className="card-title" tag="h5">
+              <CardTitle className="card-title" tag="h5" style={{color:"var(--primary-color)"}}>
                 Cat Tinder
               </CardTitle>
               <CardSubtitle className="mb-2 text-muted" tag="h6">
@@ -141,7 +140,7 @@ const Projects = () => {
                 View Code
               </CardLink>
             </CardBody>
-          </Card> */}
+          </Card>
         </div>
       </Container>
     </>
