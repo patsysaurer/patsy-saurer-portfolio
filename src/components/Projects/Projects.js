@@ -135,7 +135,7 @@ const Projects = () => {
                 Collaborative project I contributed to building a full-stack
                 application.
               </CardText>
-              <CardLink href="">View App</CardLink>
+              {/* <CardLink href="">View App</CardLink> */}
               <CardLink href="https://github.com/patsysaurer/cat-tinder-backend">
                 View Code
               </CardLink>
