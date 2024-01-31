@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import {
+  Button,
   Card,
   CardBody,
   CardTitle,
@@ -39,10 +40,10 @@ const Projects = () => {
             />
             <CardBody>
               <CardText>
-                Full-Stack App deployed with full CRUD functionality and my personal cake images.
+                Full-Stack App deployed with full CRUD functionality and my personal cakes.
               </CardText>
-              <CardLink href="https://cake-recipes-app.onrender.com/">View App</CardLink>
-              <CardLink href="https://github.com/patsysaurer/cake-recipes-backend">
+              <CardLink href="https://cake-recipes-app.onrender.com/" target="blank"><Button color="warning">View App</Button></CardLink>
+              <CardLink href="https://github.com/patsysaurer/cake-recipes-backend" target="blank">
                 View Code
               </CardLink>
             </CardBody>
@@ -70,10 +71,10 @@ const Projects = () => {
                 My love for cakes turned into a cute React game adding a cool
                 confetti feature.
               </CardText>
-              <CardLink href="https://cake-memory.onrender.com/">
-                Play Game
+              <CardLink href="https://cake-memory.onrender.com/" target="blank">
+              <Button color="warning">Play Game</Button>
               </CardLink>
-              <CardLink href="https://github.com/patsysaurer/cake-memory">
+              <CardLink href="https://github.com/patsysaurer/cake-memory" target="blank"> 
                 View Code
               </CardLink>
             </CardBody>
@@ -101,10 +102,10 @@ const Projects = () => {
                 Collaborative project I contributed to creating a classic game
                 in React.
               </CardText>
-              <CardLink href="https://tic-tac-toe-9qfh.onrender.com/">
-                Play Game
+              <CardLink href="https://tic-tac-toe-9qfh.onrender.com/" target="blank">
+              <Button color="warning">Play Game</Button>
               </CardLink>
-              <CardLink href="https://github.com/patsysaurer/tic-tac-toe-alex-patsy-derek">
+              <CardLink href="https://github.com/patsysaurer/tic-tac-toe-alex-patsy-derek" target="blank">
                 View Code
               </CardLink>
             </CardBody>
@@ -136,7 +137,7 @@ const Projects = () => {
                 application.
               </CardText>
               {/* <CardLink href="">View App</CardLink> */}
-              <CardLink href="https://github.com/patsysaurer/cat-tinder-backend">
+              <CardLink href="https://github.com/patsysaurer/cat-tinder-backend" target="blank">
                 View Code
               </CardLink>
             </CardBody>
