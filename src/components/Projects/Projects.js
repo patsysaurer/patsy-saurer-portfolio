@@ -164,7 +164,7 @@ const Projects = () => {
                 Collaborative project I contributed to building a full-stack
                 application.
               </CardText>
-              <CardLink href=""><Button color="warning" style={{border:"none"}}>View App</Button></CardLink>
+              {/* <CardLink href=""><Button color="warning" style={{border:"none"}}>View App</Button></CardLink> */}
               <CardLink href="https://github.com/patsysaurer/cat-tinder-backend" target="blank">
               <Button style={{backgroundColor:"var(--secondary-color)", border:"var(--secondary-color)", color:"var(--primary-dark)"}}>View Code</Button>
               </CardLink>
