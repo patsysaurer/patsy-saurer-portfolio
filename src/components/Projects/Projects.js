@@ -42,9 +42,9 @@ const Projects = () => {
               <CardText>
                 Full-Stack App deployed with full CRUD functionality and my personal cakes.
               </CardText>
-              <CardLink href="https://cake-recipes-app.onrender.com/" target="blank"><Button color="warning">View App</Button></CardLink>
+              <CardLink href="https://cake-recipes-app.onrender.com/" target="blank"><Button color="warning" style={{border:"none"}}>View App</Button></CardLink>
               <CardLink href="https://github.com/patsysaurer/cake-recipes-backend" target="blank">
-                View Code
+              <Button style={{backgroundColor:"var(--secondary-color)", border:"var(--secondary-color)", color:"var(--primary-dark)"}}>View Code</Button>
               </CardLink>
             </CardBody>
           </Card>
@@ -57,7 +57,7 @@ const Projects = () => {
           >
             <CardBody>
               <CardTitle tag="h5" style={{color:"var(--primary-color)"}}>Cake Memory</CardTitle>
-              <CardSubtitle className="mb-2 text-muted" tag="h6">
+              <CardSubtitle className="mb-2 text-muted" tag="h7">
                 React & Vite
               </CardSubtitle>
             </CardBody>
@@ -72,10 +72,42 @@ const Projects = () => {
                 confetti feature.
               </CardText>
               <CardLink href="https://cake-memory.onrender.com/" target="blank">
-              <Button color="warning">Play Game</Button>
+              <Button color="warning"  style={{border:"none"}}>Play Me</Button>
               </CardLink>
               <CardLink href="https://github.com/patsysaurer/cake-memory" target="blank"> 
-                View Code
+              <Button style={{backgroundColor:"var(--secondary-color)", border:"var(--secondary-color)", color:"var(--primary-dark)"}}>View Code</Button>
+              </CardLink>
+            </CardBody>
+          </Card>
+
+          <Card
+            className="card" // Laugh Host 
+            style={{
+              width: "18rem",
+              marginBottom: "25px",
+            }}
+          >
+            <CardBody>
+              <CardTitle className="card-title" tag="h5" style={{color:"var(--primary-color)"}}>
+                Laugh Host:3001
+              </CardTitle>
+              <CardSubtitle className="mb-2 text-muted" tag="h6">
+                React, Ruby on Rails & RSpec Testing
+              </CardSubtitle>
+            </CardBody>
+            <img
+              alt="Laugh Host App"
+              src="https://res.cloudinary.com/dl11m63ow/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1706894142/laugh-host_ivgid7.png"
+              width="100%"
+            />
+            <CardBody>
+              <CardText>
+                Collaborative project I contributed to building a full-stack
+                application.
+              </CardText>
+              <CardLink href="https://laughhost3001.onrender.com/"><Button color="warning"  style={{border:"none"}}>View App</Button></CardLink>
+              <CardLink href="https://github.com/patsysaurer/laugh-host3001-backend" target="blank">
+              <Button style={{backgroundColor:"var(--secondary-color)", border:"var(--secondary-color)", color:"var(--primary-dark)"}}>View Code</Button>
               </CardLink>
             </CardBody>
           </Card>
@@ -102,12 +134,8 @@ const Projects = () => {
                 Collaborative project I contributed to creating a classic game
                 in React.
               </CardText>
-              <CardLink href="https://tic-tac-toe-9qfh.onrender.com/" target="blank">
-              <Button color="warning">Play Game</Button>
-              </CardLink>
-              <CardLink href="https://github.com/patsysaurer/tic-tac-toe-alex-patsy-derek" target="blank">
-                View Code
-              </CardLink>
+              <CardLink href="https://tic-tac-toe-9qfh.onrender.com/" target="blank"><Button color="warning" style={{border:"none"}}>Play Me</Button></CardLink>
+              <CardLink href="https://github.com/patsysaurer/tic-tac-toe-alex-patsy-derek" target="blank"><Button style={{backgroundColor:"var(--secondary-color)", border:"var(--secondary-color)", color:"var(--primary-dark)"}}>View Code</Button></CardLink>
             </CardBody>
           </Card>
 
@@ -136,12 +164,13 @@ const Projects = () => {
                 Collaborative project I contributed to building a full-stack
                 application.
               </CardText>
-              {/* <CardLink href="">View App</CardLink> */}
+              <CardLink href=""><Button color="warning" style={{border:"none"}}>View App</Button></CardLink>
               <CardLink href="https://github.com/patsysaurer/cat-tinder-backend" target="blank">
-                View Code
+              <Button style={{backgroundColor:"var(--secondary-color)", border:"var(--secondary-color)", color:"var(--primary-dark)"}}>View Code</Button>
               </CardLink>
             </CardBody>
           </Card>
+
         </div>
       </Container>
     </>
@@ -149,3 +178,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
