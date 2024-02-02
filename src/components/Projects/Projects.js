@@ -18,8 +18,8 @@ const Projects = () => {
         {/* <div className="projects-section" > */}
         <h2>Projects</h2>
         <div className="card-container">
-        <Card
-            className="card" // cake recipe app
+        <Card // cake recipe app
+            className="card" 
             style={{
               width: "18rem",
               marginBottom: "25px",
@@ -35,7 +35,7 @@ const Projects = () => {
             </CardBody>
             <img
               alt="Cake Recipe App"
-              src="https://res.cloudinary.com/dl11m63ow/image/upload/c_thumb,w_200,g_face/v1706524219/cake-recipe-app_mc8s1y.png"
+              src="https://res.cloudinary.com/dl11m63ow/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1706524219/cake-recipe-app_mc8s1y.png"
               width="100%"
             />
             <CardBody>
@@ -44,37 +44,6 @@ const Projects = () => {
               </CardText>
               <CardLink href="https://cake-recipes-app.onrender.com/" target="blank"><Button color="warning" style={{border:"none"}}>View App</Button></CardLink>
               <CardLink href="https://github.com/patsysaurer/cake-recipes-backend" target="blank">
-              <Button style={{backgroundColor:"var(--secondary-color)", border:"var(--secondary-color)", color:"var(--primary-dark)"}}>View Code</Button>
-              </CardLink>
-            </CardBody>
-          </Card>
-
-          <Card // cake memory game
-            style={{
-              width: "18rem",
-              marginBottom: "25px",
-            }}
-          >
-            <CardBody>
-              <CardTitle tag="h5" style={{color:"var(--primary-color)"}}>Cake Memory</CardTitle>
-              <CardSubtitle className="mb-2 text-muted" tag="h7">
-                React & Vite
-              </CardSubtitle>
-            </CardBody>
-            <img
-              alt="Cake Memory Game"
-              src="https://res.cloudinary.com/dl11m63ow/image/upload/c_thumb,w_200,g_face/v1704243310/cake-match_itnako.png"
-              width="100%"
-            />
-            <CardBody>
-              <CardText>
-                My love for cakes turned into a cute React game adding a cool
-                confetti feature.
-              </CardText>
-              <CardLink href="https://cake-memory.onrender.com/" target="blank">
-              <Button color="warning"  style={{border:"none"}}>Play Me</Button>
-              </CardLink>
-              <CardLink href="https://github.com/patsysaurer/cake-memory" target="blank"> 
               <Button style={{backgroundColor:"var(--secondary-color)", border:"var(--secondary-color)", color:"var(--primary-dark)"}}>View Code</Button>
               </CardLink>
             </CardBody>
@@ -112,6 +81,37 @@ const Projects = () => {
             </CardBody>
           </Card>
 
+          <Card // cake memory game
+            style={{
+              width: "18rem",
+              marginBottom: "25px",
+            }}
+          >
+            <CardBody>
+              <CardTitle tag="h5" style={{color:"var(--primary-color)"}}>Cake Memory</CardTitle>
+              <CardSubtitle className="mb-2 text-muted" tag="h7">
+                React & Vite
+              </CardSubtitle>
+            </CardBody>
+            <img
+              alt="Cake Memory Game"
+              src="https://res.cloudinary.com/dl11m63ow/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1704243310/cake-match_itnako.png"
+              width="100%"
+            />
+            <CardBody>
+              <CardText>
+                My love for cakes turned into a cute React game adding a cool
+                confetti feature.
+              </CardText>
+              <CardLink href="https://cake-memory.onrender.com/" target="blank">
+              <Button color="warning"  style={{border:"none"}}>Play Me</Button>
+              </CardLink>
+              <CardLink href="https://github.com/patsysaurer/cake-memory" target="blank"> 
+              <Button style={{backgroundColor:"var(--secondary-color)", border:"var(--secondary-color)", color:"var(--primary-dark)"}}>View Code</Button>
+              </CardLink>
+            </CardBody>
+          </Card>
+
           <Card // tic-tac-toe game
             style={{
               width: "18rem",
@@ -126,7 +126,7 @@ const Projects = () => {
             </CardBody>
             <img
               alt="Tic Tac Toe"
-              src="https://res.cloudinary.com/dl11m63ow/image/upload/c_thumb,w_200,g_face/v1704253602/tic-tac-toe_akmysc.png"
+              src="https://res.cloudinary.com/dl11m63ow/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1706896788/Screenshot_2024-02-02_at_9.59.23_AM_bthets.png"
               width="100%"
             />
             <CardBody>
@@ -156,7 +156,7 @@ const Projects = () => {
             </CardBody>
             <img
               alt="Cat Tinder app"
-              src="https://res.cloudinary.com/dl11m63ow/image/upload/c_thumb,w_200,g_face/v1704253883/cat-tinder_y6jvgi.png"
+              src="https://res.cloudinary.com/dl11m63ow/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1704253883/cat-tinder_y6jvgi.png"
               width="100%"
             />
             <CardBody>
