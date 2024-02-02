@@ -74,7 +74,7 @@ const Projects = () => {
                 Collaborative project I contributed to building a full-stack
                 application.
               </CardText>
-              <CardLink href="https://laughhost3001.onrender.com/"><Button color="warning"  style={{border:"none"}}>View App</Button></CardLink>
+              <CardLink href="https://laughhost3001.onrender.com/" target="blank"><Button color="warning"  style={{border:"none"}}>View App</Button></CardLink>
               <CardLink href="https://github.com/patsysaurer/laugh-host3001-backend" target="blank">
               <Button style={{backgroundColor:"var(--secondary-color)", border:"var(--secondary-color)", color:"var(--primary-dark)"}}>View Code</Button>
               </CardLink>
