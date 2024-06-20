@@ -1,15 +1,38 @@
-import React from 'react'
-import './About.css'
+import React from "react";
+import "./About.css";
 
 const About = () => {
   return (
-    <div className='about' id='about'>
-      <div className='about-text'>
+    <div className="about" id="about">
+      <div className="about-text">
         <h3>About Me</h3>
-        <p>I’m a developer with a sweet twist. I use JavaScript, React and Ruby on Rails to build applications. My experience is a combination of chocolate and baking with the discipline of military service. Quality, time-management, and commitment are my top three values. Similar to chocolate and pastry, code can become very complex with a sweet reward. Challenging myself is what I thrive on.</p>
+        <p>
+          I'm a developer with a sweet twist. I hold a bachelor's degree in Web
+          Design & Interactive Media and a certification in full-stack
+          development. Prior to my journey in web development, I served as a
+          Petty Officer in the U.S. Navy for four years, where I handled
+          aircraft operations at sea. This experience instilled in me a deep
+          appreciation for precision, quality, and commitment.
+        </p>
+        <p>
+          After my time in the Navy, I pursued my first passion by completing a
+          culinary program, specializing in chocolate and pastry. As a
+          chocolatier and pastry chef, I found immense joy in creating
+          delightful confections. It was during this time that I helped my boss
+          enhance the restaurant's website, which sparked my interest in web
+          design and development. This newfound passion led me to transition
+          into a career that combines creativity with technical expertise.
+        </p>
+        <p>
+          Now, as a full-stack developer, I bring a unique blend of meticulous
+          attention to detail, artistic flair, and technical proficiency to
+          every project I undertake. I am dedicated to creating engaging,
+          user-friendly web experiences and am eager to contribute my skills to
+          innovative and dynamic projects.
+        </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
