@@ -8,7 +8,7 @@ import {
   CardSubtitle,
   CardText,
   CardLink,
-  Container
+  Container,
 } from "reactstrap";
 
 const Projects = () => {
@@ -18,15 +18,19 @@ const Projects = () => {
         {/* <div className="projects-section" > */}
         <h2>Projects</h2>
         <div className="card-container">
-        <Card // cake recipe app
-            className="card" 
+          <Card // cake recipe app
+            className="card"
             style={{
               width: "18rem",
               marginBottom: "25px",
             }}
           >
             <CardBody>
-              <CardTitle className="card-title" tag="h5" style={{color:"var(--primary-color)"}}>
+              <CardTitle
+                className="card-title"
+                tag="h5"
+                style={{ color: "var(--primary-color)" }}
+              >
                 Cake Recipe App
               </CardTitle>
               <CardSubtitle className="mb-2 text-muted" tag="h6">
@@ -40,24 +44,47 @@ const Projects = () => {
             />
             <CardBody>
               <CardText>
-                Full-Stack App deployed with full CRUD functionality and my personal cakes.
+                Full-Stack App deployed with full CRUD functionality and my
+                personal cakes.
               </CardText>
-              <CardLink href="https://cake-recipes-app.onrender.com/" target="blank"><Button color="warning" style={{border:"none"}}>View App</Button></CardLink>
-              <CardLink href="https://github.com/patsysaurer/cake-recipes-backend" target="blank">
-              <Button style={{backgroundColor:"var(--secondary-color)", border:"var(--secondary-color)", color:"var(--primary-dark)"}}>View Code</Button>
+              <CardLink
+                href="https://cake-recipes-app.onrender.com/"
+                target="blank"
+              >
+                <Button color="warning" style={{ border: "none" }}>
+                  View App
+                </Button>
+              </CardLink>
+              <CardLink
+                href="https://github.com/patsysaurer/cake-recipes-backend"
+                target="blank"
+              >
+                <Button
+                  style={{
+                    backgroundColor: "var(--secondary-color)",
+                    border: "var(--secondary-color)",
+                    color: "var(--primary-dark)",
+                  }}
+                >
+                  View Code
+                </Button>
               </CardLink>
             </CardBody>
           </Card>
 
           <Card
-            className="card" // Laugh Host 
+            className="card" // Laugh Host
             style={{
               width: "18rem",
               marginBottom: "25px",
             }}
           >
             <CardBody>
-              <CardTitle className="card-title" tag="h5" style={{color:"var(--primary-color)"}}>
+              <CardTitle
+                className="card-title"
+                tag="h5"
+                style={{ color: "var(--primary-color)" }}
+              >
                 Laugh Host:3001
               </CardTitle>
               <CardSubtitle className="mb-2 text-muted" tag="h6">
@@ -74,9 +101,27 @@ const Projects = () => {
                 Collaborative project I contributed to building a full-stack
                 application.
               </CardText>
-              <CardLink href="https://laughhost3001.onrender.com/" target="blank"><Button color="warning"  style={{border:"none"}}>View App</Button></CardLink>
-              <CardLink href="https://github.com/patsysaurer/laugh-host3001-backend" target="blank">
-              <Button style={{backgroundColor:"var(--secondary-color)", border:"var(--secondary-color)", color:"var(--primary-dark)"}}>View Code</Button>
+              <CardLink
+                href="https://laughhost3001.onrender.com/"
+                target="blank"
+              >
+                <Button color="warning" style={{ border: "none" }}>
+                  View App
+                </Button>
+              </CardLink>
+              <CardLink
+                href="https://github.com/patsysaurer/laugh-host3001-backend"
+                target="blank"
+              >
+                <Button
+                  style={{
+                    backgroundColor: "var(--secondary-color)",
+                    border: "var(--secondary-color)",
+                    color: "var(--primary-dark)",
+                  }}
+                >
+                  View Code
+                </Button>
               </CardLink>
             </CardBody>
           </Card>
@@ -88,7 +133,9 @@ const Projects = () => {
             }}
           >
             <CardBody>
-              <CardTitle tag="h5" style={{color:"var(--primary-color)"}}>Cake Memory</CardTitle>
+              <CardTitle tag="h5" style={{ color: "var(--primary-color)" }}>
+                Cake Memory
+              </CardTitle>
               <CardSubtitle className="mb-2 text-muted" tag="h7">
                 React & Vite
               </CardSubtitle>
@@ -104,10 +151,23 @@ const Projects = () => {
                 confetti feature.
               </CardText>
               <CardLink href="https://cake-memory.onrender.com/" target="blank">
-              <Button color="warning"  style={{border:"none"}}>Play Me</Button>
+                <Button color="warning" style={{ border: "none" }}>
+                  Play Me
+                </Button>
               </CardLink>
-              <CardLink href="https://github.com/patsysaurer/cake-memory" target="blank"> 
-              <Button style={{backgroundColor:"var(--secondary-color)", border:"var(--secondary-color)", color:"var(--primary-dark)"}}>View Code</Button>
+              <CardLink
+                href="https://github.com/patsysaurer/cake-memory"
+                target="blank"
+              >
+                <Button
+                  style={{
+                    backgroundColor: "var(--secondary-color)",
+                    border: "var(--secondary-color)",
+                    color: "var(--primary-dark)",
+                  }}
+                >
+                  View Code
+                </Button>
               </CardLink>
             </CardBody>
           </Card>
@@ -119,7 +179,9 @@ const Projects = () => {
             }}
           >
             <CardBody>
-              <CardTitle tag="h5" style={{color:"var(--primary-color)"}}>Tic Tac Toe</CardTitle>
+              <CardTitle tag="h5" style={{ color: "var(--primary-color)" }}>
+                Tic Tac Toe
+              </CardTitle>
               <CardSubtitle className="mb-2 text-muted" tag="h6">
                 React & Yarn
               </CardSubtitle>
@@ -134,8 +196,28 @@ const Projects = () => {
                 Collaborative project I contributed to creating a classic game
                 in React.
               </CardText>
-              <CardLink href="https://tic-tac-toe-9qfh.onrender.com/" target="blank"><Button color="warning" style={{border:"none"}}>Play Me</Button></CardLink>
-              <CardLink href="https://github.com/patsysaurer/tic-tac-toe-alex-patsy-derek" target="blank"><Button style={{backgroundColor:"var(--secondary-color)", border:"var(--secondary-color)", color:"var(--primary-dark)"}}>View Code</Button></CardLink>
+              <CardLink
+                href="https://tic-tac-toe-9qfh.onrender.com/"
+                target="blank"
+              >
+                <Button color="warning" style={{ border: "none" }}>
+                  Play Me
+                </Button>
+              </CardLink>
+              <CardLink
+                href="https://github.com/patsysaurer/tic-tac-toe-alex-patsy-derek"
+                target="blank"
+              >
+                <Button
+                  style={{
+                    backgroundColor: "var(--secondary-color)",
+                    border: "var(--secondary-color)",
+                    color: "var(--primary-dark)",
+                  }}
+                >
+                  View Code
+                </Button>
+              </CardLink>
             </CardBody>
           </Card>
 
@@ -147,7 +229,11 @@ const Projects = () => {
             }}
           >
             <CardBody>
-              <CardTitle className="card-title" tag="h5" style={{color:"var(--primary-color)"}}>
+              <CardTitle
+                className="card-title"
+                tag="h5"
+                style={{ color: "var(--primary-color)" }}
+              >
                 Cat Tinder
               </CardTitle>
               <CardSubtitle className="mb-2 text-muted" tag="h6">
@@ -165,12 +251,66 @@ const Projects = () => {
                 application.
               </CardText>
               {/* <CardLink href=""><Button color="warning" style={{border:"none"}}>View App</Button></CardLink> */}
-              <CardLink href="https://github.com/patsysaurer/cat-tinder-backend" target="blank">
-              <Button style={{backgroundColor:"var(--secondary-color)", border:"var(--secondary-color)", color:"var(--primary-dark)"}}>View Code</Button>
+              <CardLink
+                href="https://github.com/patsysaurer/cat-tinder-backend"
+                target="blank"
+              >
+                <Button
+                  style={{
+                    backgroundColor: "var(--secondary-color)",
+                    border: "var(--secondary-color)",
+                    color: "var(--primary-dark)",
+                  }}
+                >
+                  View Code
+                </Button>
               </CardLink>
             </CardBody>
           </Card>
 
+          <Card
+            className="card" // cat Tinder
+            style={{
+              width: "18rem",
+              marginBottom: "25px",
+            }}
+          >
+            <CardBody>
+              <CardTitle
+                className="card-title"
+                tag="h5"
+                style={{ color: "var(--primary-color)" }}
+              >
+                The Bindery Denver
+              </CardTitle>
+              <CardSubtitle className="mb-2 text-muted" tag="h6">
+                WordPress, HTML & CSS
+              </CardSubtitle>
+            </CardBody>
+            <img
+              alt="The Bindery Denver"
+              src="https://res.cloudinary.com/dl11m63ow/image/upload/v1718908064/Screenshot_2024-06-20_at_1.27.31_PM_oerxey.png"
+              width="100%"
+            />
+            <CardBody>
+              <CardText>
+                A New American fine dining restaurant in Denver with a beautiful
+                gallery and menu.
+              </CardText>
+              {/* <CardLink href=""><Button color="warning" style={{border:"none"}}>View App</Button></CardLink> */}
+              <CardLink href="https://thebinderydenver.com/" target="blank">
+                <Button
+                  style={{
+                    backgroundColor: "var(--secondary-color)",
+                    border: "var(--secondary-color)",
+                    color: "var(--primary-dark)",
+                  }}
+                >
+                  View Site
+                </Button>
+              </CardLink>
+            </CardBody>
+          </Card>
         </div>
       </Container>
     </>
@@ -178,5 +318,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-
