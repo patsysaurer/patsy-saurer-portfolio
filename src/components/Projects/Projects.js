@@ -39,7 +39,7 @@ const Projects = () => {
             </CardBody>
             <img
               alt="The Bindery Denver"
-              src="https://res.cloudinary.com/dl11m63ow/image/upload/v1718908064/Screenshot_2024-06-20_at_1.27.31_PM_oerxey.png"
+              src="https://res.cloudinary.com/dl11m63ow/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1718908064/Screenshot_2024-06-20_at_1.27.20_PM_m2ovih.png"
               width="100%"
             />
             <CardBody>
