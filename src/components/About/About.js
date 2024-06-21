@@ -30,6 +30,17 @@ const About = () => {
           user-friendly web experiences and am eager to contribute my skills to
           innovative and dynamic projects.
         </p>
+        <div className="image">
+          <img
+            src="https://res.cloudinary.com/dl11m63ow/image/upload/v1712806589/979564956161049103_xb4wfk.png"
+            alt="Avatar of Patsy"
+          />
+          <button>
+            <a href="https://www.linkedin.com/in/patsy-saurer/" target="blank">
+              View My LinkedIn
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );
