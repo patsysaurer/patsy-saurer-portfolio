@@ -56,7 +56,7 @@ const Projects = () => {
             </CardBody>
           </Card>
 
-          <Card // cake recipe app
+          {/* <Card // cake recipe app
             className="card"
             style={{
               width: "18rem",
@@ -108,7 +108,7 @@ const Projects = () => {
                 </Button>
               </CardLink>
             </CardBody>
-          </Card>
+          </Card> */}
 
           <Card // cake memory game
             style={{
